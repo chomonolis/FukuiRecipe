@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainToolBar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_name"
+        android:textSize="22sp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/mainBtn1"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+            <Button
+                android:id="@+id/mainBtn10"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn10"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/mainBtn5"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn5"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+            <Button
+                android:id="@+id/mainBtn7"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn7"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/mainBtn6"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn6"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+
+            <Button
+                android:id="@+id/mainBtn4"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn4"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <Button
+                android:id="@+id/mainBtn2"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn2"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+            <Button
+                android:id="@+id/mainBtn8"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn8"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+            <Button
+                android:id="@+id/mainBtn9"
+                android:layout_height="80dp"
+                android:layout_width="wrap_content"
+                android:text="@string/main_btn9"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_weight="1"
+                android:onClick="choseCSV"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
